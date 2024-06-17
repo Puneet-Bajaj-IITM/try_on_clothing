@@ -121,6 +121,8 @@ export default function Page() {
       })
       .then((response) => {
         const url = URL.createObjectURL(response.data);
+        console.log(response.data);
+        console.log(url);
         setResultImage(url);
        setLoading(false)
 

@@ -118,7 +118,7 @@ export default function Page() {
                 setLoading(true)
                 handleSignup()
               }}
-              isDisabled={!isEmailValid || !isPasswordValid}
+              // isDisabled={!isEmailValid || !isPasswordValid}
                 loadingText="Submitting"
                 size="lg"
                 bg={"blue.400"}
